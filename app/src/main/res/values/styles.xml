@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="dialog_addzfry" parent="@android:style/Theme.Dialog">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/holo_blue_light</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="RFIDDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <color name="left_column_bk">#6B9A00</color>
+    <color name="right_column_bk">#9CCF00</color>
+    <color name="toggleButton_bk">#FFFFFF</color>
+    <color name="txt_show_color">#ffffff</color>
+    <color name="padding_line_color">#FFFFFF</color>
+    <color name="txt_warnning_color">#FF0000</color>
+
+    <style name="TabActived">
+        <item name="android:textColor">#FF3333</item>
+        <item name="android:background">@drawable/lan</item>
+    </style>
+
+    <style name="TabNormal">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/hei</item>
+    </style>
+
+    <style name="Titlebar">
+        <item name="android:background">#238fbd</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="user_popupwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_menu_show
+        </item>        <!-- 指定显示的动画xml  -->
+        <item name="android:windowExitAnimation">@anim/popup_menu_hidden
+        </item>       <!-- 指定消失的动画xml  -->
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextS">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="WenshuTitleXiao">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

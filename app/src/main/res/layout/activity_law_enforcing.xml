@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bai"
+    tools:context=".activity.enforcement.Menu_EnforcingActivity">
+
+    <com.quanta.aj.yunanjian.mywegit.Title_Big_Layout
+        android:id="@+id/ef_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hei"/>
+    <GridView
+        android:id="@+id/ef_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:numColumns="2"></GridView>
+</LinearLayout>

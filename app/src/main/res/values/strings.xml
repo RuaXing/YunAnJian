@@ -1,0 +1,93 @@
+<resources>
+
+    <string name="host_set">服务器设置</string>
+    <string name="confirm">确定</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="comit">保存</string>
+    <string name="谢谢使用">谢谢使用!</string>
+    <string name="host_name">pssms</string>
+    <string name="host_address">220.174.210.63:8082</string>
+    <string name="host_set_remind"> 注意：地址格式为IP地址加上端口号\n 如：220.174.210.63:8082</string>
+    <string name="account">账号</string>
+    <string name="app_name">移动安监云平台</string>
+    <string name="quitApp">退出应用</string>
+    <string name="connection_fail">连接失败，请检查网络设置！</string>
+    <string name="username">用户名</string>
+    <string name="pass2">密\u0020\u0020码</string>
+    <string name="pass">密\u0020\u0020\u0020\u0020码</string>
+    <string name="login">登录</string>
+    <string name="quit">退出</string>
+    <string name="remember_pass">记住账号</string>
+    <string name="automatic_login">自动登录</string>
+    <string name="software_versioning">软件版本号:</string>
+    <string name="software_versioning_val">1.0</string>
+    <string name="software_versioning_now">当前版本号:</string>
+    <string name="software_versioning_now_val">1.0</string>
+    <string name="software_versioning_new">最新版本号:</string>
+    <string name="software_versioning_new_val">1.0</string>
+    <string name="technology">技术研发:</string>
+    <string name="technology_val">量子科技</string>
+
+    <string name="mn1">企业信息监管</string>
+    <string name="mn2">移动执法管理</string>
+    <string name="mn3">MSDS查询</string>
+    <string name="mn4">安全知识库</string>
+    <string name="mn5">隐患排查管理</string>
+    <string name="mn6">危险源监管</string>
+    <string name="mn7">安全数据分析</string>
+    <string name="mn8">GPS服务</string>
+    <string name="mn9">监测预警</string>
+    <string name="noaction">该功能尚未上线，敬请期待！</string>
+
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="phone">电话</string>
+    <string name="unit">单位</string>
+    <string name="工作单位">工作单位</string>
+    <string name="职务">职务:</string>
+    <string name="company_info">企业信息</string>
+    <string name="back">返回</string>
+
+    <string name="ins">安全检查</string>
+    <string name="inf_case">行政处罚</string>
+    <string name="corpname">企业名称</string>
+    <string name="corpinfo">企业信息</string>
+    <string name="enfinfo">执法信息</string>
+    <string name="unionable">联合执法:</string>
+    <string name="ounionable">外部联合执法:</string>
+    <string name="enfunit">执法机关:</string>
+    <string name="status">状态:</string>
+    <string name="doclist">文书列表</string>
+    <string name="docadd">添加文书</string>
+    <string name="endenf">结案</string>
+    <string name="addenf">生成案件</string>
+
+    <string name="dlr_info">委托代理人信息</string>
+    <string name="抽样物品列表">抽样物品列表</string>
+    <string name="证据物品名称">证据物品名称:</string>
+    <string name="规格型号">规格型号:</string>
+    <string name="产地">产地:</string>
+    <string name="成色">成色（品级）:</string>
+    <string name="单位">单位:</string>
+    <string name="价格">价格:</string>
+    <string name="数量">数量:</string>
+    <string name="物品所有人">物品所有人:</string>
+
+    <string name="msg_load_ing">加载中...</string>
+    <string name="Warning">警告！</string>
+    <string name="tex_enforce">行政处罚</string>
+    <string name="query">查询</string>
+    <string name="xcjc">现场检查</string>
+    <string name="efcase">行政处罚</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="title_activity_mfragment">MFragmentActivity</string>
+
+    <string name="search">搜索：地点 公交 路线</string>
+    <string name="city_lat">城市 经度</string>
+    <string name="bus_lon_address">地名 纬度 公交车</string>
+    <string name="do_search">搜索</string>
+    <string name="my_point">我的位置</string>
+</resources>

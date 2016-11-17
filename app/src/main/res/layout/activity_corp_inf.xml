@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e1ffff"
+    tools:context="com.quanta.aj.yunanjian.activity.corpInf.CorpInfActivity">
+
+    <com.quanta.aj.yunanjian.mywegit.Title_Big_Layout
+        android:id="@+id/corpinftt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hei"/>
+    <!--企业信息-->
+    <ListView
+        android:id="@+id/corpinf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hei"/>
+    <!-- 底部按钮-->
+        <GridView
+            android:id="@+id/menus"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:numColumns="3"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/午夜的蓝色">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/pass_back">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/detail_back_sel" />
+        <TextView
+            android:id="@+id/pass_backText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/btn_text"
+            android:textSize="12dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/mtitlytext"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/tex_enforce"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:textColor="@color/bai"
+        android:gravity="center"
+        android:textIsSelectable="false" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/pass_meun">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/home" />
+        <TextView
+            android:id="@+id/pass_meunText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主页"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/btn_text"
+            android:textSize="12dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quanta.aj.yunanjian">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="andorid.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".helper.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/myapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="EsI86o3MwT9HgnX6ZbsqaiBkIWQHAX4t" />
+        <activity android:name=".activity.base.Host_Setting_Activity">
+        </activity>
+        <activity android:name=".activity.base.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.base.Index_Menu_Activity" />
+        <activity android:name=".activity.enforcement.Menu_EnforcingActivity" />
+        <activity
+            android:name=".activity.corpInf.QueryCPINFActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".activity.corpInf.CorpInfActivity" />
+        <activity android:name=".activity.enforcement.InspectionListActivity" />
+        <activity android:name=".activity.enforcement.CaseListActivity" />
+        <activity android:name=".activity.enforcement.CaseEditActivity" />
+        <activity android:name=".activity.enforcement.CaseAddActivity" />
+        <activity
+            android:name=".activity.enforcement.Document01Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".mywegit.Dialog_adzfryActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".activity.enforcement.Document02Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document03Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document04Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document05Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document06Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document07Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document08Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document09Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document10Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document11Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document12Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document13Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document14Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document15Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document16Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document17Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document18Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document19Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document20Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document21Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".activity.enforcement.ReviewList" />
+        <activity
+            android:name=".activity.enforcement.CaseDocNotDoActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document22Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document23Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document24Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document25Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document26Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document27Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document28Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document29Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document30Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document31Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document32Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document33Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document34Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document35Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.Document36Activity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".activity.base.MFragmentActivity" />
+        <activity
+            android:name=".activity.enforcement.InspectInfoActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.enforcement.InspectInfoNewActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.base.SelectUserActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_addEvidenceActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_addAgentActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_AgentActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_addEflist"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_EfCheck"
+            android:theme="@style/dialog_addzfry" />
+        <activity
+            android:name=".mywegit.Dialog_jnmu"
+            android:theme="@style/dialog_addzfry" />
+        <activity android:name=".activity.enforcement.DocPrintActivity" />
+        <activity android:name=".activity.enforcement.ReviewActivity" />
+        <activity
+            android:name=".mywegit.Dialog_confirmActivity"
+            android:theme="@style/dialog_addzfry" />
+        <activity android:name=".activity.enforcement.ReviewDocnotdoActivity" />
+        <activity android:name=".activity.enforcement.InsDocnotdoActivity" />
+        <activity android:name=".mywegit.Dialog_Userinfo" />
+        <activity android:name=".activity.gps.GpsMianActivity" />
+        <activity android:name=".activity.gps.TabHostTestActivity" />
+        <activity android:name=".activity.gps.GalleryTestActivity" />
+        <activity android:name=".activity.gps.GpsActivity" />
+        <activity android:name=".activity.gps.SearchActivity" />
+        <activity android:name=".activity.base.QuitApp"/>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"/>
+    </application>
+
+</manifest>
